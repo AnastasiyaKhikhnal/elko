@@ -2,7 +2,8 @@
 
 body {
   margin: 0 auto;
-  width: 80%;
+  width: 85%;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .header {
@@ -21,7 +22,6 @@ body {
   background: #2F2FA2;
 }
 
-
 .logo {
   display: flex;
   flex-direction: row;
@@ -37,7 +37,6 @@ body {
   padding-right: 0.2em;
   font-weight: 100;
 }
-
 
 .address {
   margin: 0;
@@ -91,12 +90,10 @@ body {
   background: #553D67;
 }
 
-/*----------------------------------------main--------------------------------------------*/
+/*----------------------------------------section main-screen--------------------------------------------*/
 
 .main-screen {
-  /*background-image: url("../img/industria-construccion.jpg");*/
   width: 100%;
-  /*height: 590px;*/
 }
 
 .main-screen-title {
@@ -109,17 +106,13 @@ body {
   width: 100%;
 
   background-color: #242582;
-
 }
-
-
 
 .main-title {
   margin: 0;
   text-transform: uppercase;
   font-size: 3.44em;
   color: white;
-
 }
 
 .activity {
@@ -138,6 +131,79 @@ body {
   width: 100%;
 }
 
+/*------------------------------------section about--------------------------------------------*/
+
+
+.container-about-company {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.container-about-company-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 70%;
+}
+
+
+
+.about-company-info {
+  margin: 0;
+  color: #2f455d;
+  text-align: justify;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.6em;
+  text-indent: 5%;
+}
+
+/*--------------------------------section footer--------------------------------------*/
+
+.container-company-advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background: #2F2FA2;
+}
+
+.container-company-advantages-intro {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 26%;
+  padding: 5.375em 1.125em;
+}
+
+.advantages-subtitle {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+
+.advantages-info {
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1.4em;
+  color: white;
+}
+
+.img-advantages {
+  margin: 0 auto;
+
+}
+
+
+
+/*--------------------------------section footer--------------------------------------*/
 
 .footer {
   display: flex;
@@ -155,7 +221,7 @@ body {
   color: #666d89;
 }
 
-.footer-sotial-icons {
+.footer-social-icons {
   margin-right: 32px;
 }
 
@@ -169,22 +235,3 @@ body {
   color: white;
   opacity: 0.4;
 }
-
-
-/*footer {*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*width: 100%;*/
-  /*background: #242582;*/
-/*}*/
-
-/*.footer-top {*/
-  /*width: 100%;*/
-  /*height: 0.625em;*/
-  /*background: #553D67;*/
-/*}*/
-
-/*.footer-bottom {*/
-  /*width: 100%;*/
-  /*height: 5em;*/
-/*}*/
