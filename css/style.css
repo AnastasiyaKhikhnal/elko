@@ -148,7 +148,7 @@ body {
   justify-content: center;
   margin-top: 5em;
   margin-bottom: 5em;
-  width: 70%;
+  width: 65%;
 }
 
 .about-company-info {
@@ -227,6 +227,7 @@ body {
 .container-contacts {
   display: flex;
   flex-direction: row;
+  height: 550px;
 }
 
 .container-contacts-left {
@@ -234,8 +235,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  height: 600px;
+  width: 45%;
 }
 
 .contacts-info {
@@ -264,9 +264,14 @@ body {
 .contacts-address__tel-link {
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
   font-style: italic;
   color: #F64C72;
+}
+
+.contacts-address__headline, .contacts-address__info{
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .contacts-address__tel-link:focus, .contacts-address__tel-link:hover, .contacts-address__tel-link:active {
@@ -278,10 +283,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  height: 600px;
+  width: 55%;
   box-sizing: border-box;
-  border: 10px solid #F64C72;
+  border-top: 10px solid #F64C72;
 }
 
 .goole-map {
