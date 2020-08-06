@@ -151,8 +151,6 @@ body {
   width: 70%;
 }
 
-
-
 .about-company-info {
   margin: 0;
   color: #2f455d;
@@ -163,7 +161,10 @@ body {
   text-indent: 5%;
 }
 
-/*--------------------------------section footer--------------------------------------*/
+/*--------------------------------section advantages--------------------------------------*/
+.company-advantages {
+  background: #2F2FA2;
+}
 
 .container-company-advantages {
   display: flex;
@@ -171,7 +172,7 @@ body {
   justify-content: center;
   align-content: center;
   width: 100%;
-  background: #2F2FA2;
+
 }
 
 .container-company-advantages-intro {
@@ -196,11 +197,102 @@ body {
   color: white;
 }
 
+.title-advantages {
+  margin: 0;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
 .img-advantages {
   margin: 0 auto;
+}
+
+/*----------------------------------container-slider-certificates-------------------------*/
+
+.container-slider-certificates {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background: #f2f2f2;
+}
+
+
+/*--------------------------------section contacts--------------------------------------*/
+.contacts {
+  background-color: #2F2FA2;
+}
+
+.container-contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-contacts-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 600px;
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
+.contacts-address__main-headline {
+  color: #bbbbb3;
+}
+
+.contacts-address__headline {
+  color: #bbbbb3;
+}
+
+.contacts-address__info {
+  margin-top: 0;
+  color: white;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.contacts-address__tel-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #F64C72;
+}
+
+.contacts-address__tel-link:focus, .contacts-address__tel-link:hover, .contacts-address__tel-link:active {
+  color: #bbbbb3;
+}
+
+.container-contacts-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 600px;
+  box-sizing: border-box;
+  border: 10px solid #F64C72;
+}
+
+.goole-map {
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
 
 
 /*--------------------------------section footer--------------------------------------*/
@@ -235,3 +327,4 @@ body {
   color: white;
   opacity: 0.4;
 }
+
