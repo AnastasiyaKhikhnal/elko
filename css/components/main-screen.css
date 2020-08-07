@@ -1,0 +1,31 @@
+@import "../style.css";
+
+.main-screen {
+  width: 100%;
+}
+
+.main-screen-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.75em;
+  padding-bottom: 1em;
+  width: 100%;
+
+  background-color: #242582;
+}
+
+.main-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3.44em;
+  color: white;
+}
+
+.activity {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.15em;
+}
