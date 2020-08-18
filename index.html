@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/main-screen.css">
     <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/components/slider.css">
 
   </head>
   <body>
@@ -39,10 +40,40 @@
 
       <section class="slider">
         <div class="container-slider">
-          <!--<img class="img" src="./img/industria-construccion.jpg" alt="">-->
-          <!--<div>20 лет на рынке строительных услуг</div>-->
-          <!--<div>Сотни успешно реализованных проектов</div>-->
-          <!--<div>Весь спектр услуг в одной компании</div>-->
+
+          <!-- Контейнер слайд-шоу -->
+          <!--<div class="slideshow-container">-->
+
+          <!-- Полноразмерные изображения с числом и текстом подписи -->
+          <div class="intro mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="slider-img" src="./img/slider/img1.jpg">
+            <div class="bg-text">20 ЛЕТ НА РЫНКЕ СТРОИТЕЛЬНЫХ УСЛУГ</div>
+
+          </div>
+
+          <div class="intro mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img class="slider-img" src="./img/slider/img2.jpg">
+            <div class="bg-text">СОТНИ УСПЕШНО РЕАЛИЗОВАННЫХ ПРОЕКТОВ</div>
+
+          </div>
+
+          <div class="intro mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img class="slider-img" src="./img/slider/img3.jpg">
+            <div class="bg-text">ШИРОКИЙ СПЕКТР СТРОИТЕЛЬНЫХ УСЛУГ В ОДНОЙ КОМПАНИИ</div>
+
+            <!--</div>-->
+          </div>
+
+          <!-- Точки/круги -->
+
+          <div class="container-dot" style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
 
         </div>
       </section>
@@ -100,7 +131,7 @@
 
 
       <section id="contacts" class="contacts">
-        <div class="container-contacts" >
+        <div class="container-contacts">
           <div class="container-contacts-left">
             <div class="contacts-info">
               <h2 class="contacts-address__main-headline">Контакты</h2>
@@ -118,10 +149,10 @@
           </div>
           <div class="container-contacts-right">
             <div class="goole-map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1182.1239273178328!2d23.82376585828347!3d53.660382295011516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd7cd74f8a2fb%3A0x4dc607da389da1cb!2z0K3Qu9C60L4g0J7QntCe!5e0!3m2!1sru!2sby!4v1596743558630!5m2!1sru!2sby"
-              frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-              tabindex="0"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1182.1239273178328!2d23.82376585828347!3d53.660382295011516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd7cd74f8a2fb%3A0x4dc607da389da1cb!2z0K3Qu9C60L4g0J7QntCe!5e0!3m2!1sru!2sby!4v1596743558630!5m2!1sru!2sby"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
             </div>
           </div>
         </div>
@@ -144,6 +175,6 @@
       </div>
     </footer>
 
-
+    <script src="./js/slider.js"></script>
   </body>
 </html>
