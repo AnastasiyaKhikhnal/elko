@@ -308,6 +308,18 @@ iframe {
   height: 100%;
 }
 
+.mail-link {
+  text-decoration: none;
+  color: white;
+}
+
+.container-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
 
 /*--------------------------------section footer--------------------------------------*/
 
