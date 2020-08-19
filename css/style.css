@@ -318,7 +318,9 @@ iframe {
   flex-direction: row;
 }
 
-
+.icon-mobile-phone {
+  margin-bottom: 5px;
+}
 
 
 /*--------------------------------section footer--------------------------------------*/
