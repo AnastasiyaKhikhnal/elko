@@ -65,17 +65,17 @@
 
 .logo a {
   text-decoration: none;
-  color: #F64C72;
+  color: #FF4500;
 }
 
 #active-menu {
-  background: #F64C72;
+  background: #FF4500;
 }
 
 
 .header-menu-item:hover a {
   cursor: pointer;
-  background: #F64C72;
+  background: #FF4500;
 }
 
 .header-bottom {
