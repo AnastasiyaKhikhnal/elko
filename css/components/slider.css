@@ -1,6 +1,6 @@
 @import "../style.css";
 
-* {box-sizing:border-box}
+/** {box-sizing:border-box}*/
 
 .container-slider {
   position: relative;

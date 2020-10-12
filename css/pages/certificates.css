@@ -3,3 +3,35 @@
 :root {
 
 }
+
+.certificate {
+  background-image: url(../../img/backgrounds/60238.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrap-certificate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  padding: 50px 0;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.certificate-title {
+  padding: 0 50px;
+  width: 100%;
+  text-align: center;
+  color: #2f455d;
+}
+
+.certificate-params {
+  padding: 20px;
+  box-sizing: border-box;
+}

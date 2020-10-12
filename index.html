@@ -9,25 +9,38 @@
     <link rel="stylesheet" href="css/components/main-screen.css">
     <link rel="stylesheet" href="css/components/footer.css">
     <link rel="stylesheet" href="css/components/slider.css">
+    <link rel="stylesheet" type="text/css" href="./slick-master/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-master/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/components/arrow-up.css">
 
   </head>
   <body>
 
-    <header class="header">
+
+
+    <header id="header" class="header">
       <div class="header-top">
         <h1 class="logo"><a href="index.html"><span>ООО</span>ЭЛКО<p class="address">Гродно, пер.Победы, 5</p></a></h1>
         <ul class="header-menu-list">
           <li class="header-menu-item"><a href="index.html" id="active-menu" target="_self">Главная</a></li>
           <li class="header-menu-item"><a href="#about-company" id="about">О нас</a></li>
           <li class="header-menu-item"><a href="pages/services.html" target="_self">Услуги</a></li>
-          <li class="header-menu-item"><a href="#">Сертификация</a></li>
+          <li class="header-menu-item"><a href="pages/certificates.html">Сертификация</a></li>
           <li class="header-menu-item"><a href="#contacts">Контакты</a></li>
         </ul>
       </div>
-      <!--<div class="header-bottom"></div>-->
+
     </header>
 
+
     <div class="main">
+
+      <div class="wrap-arrow">
+        <div class="arrow-up">
+          <div></div>
+        </div>
+      </div>
+
       <section class="main-screen">
         <div class="main-screen-title">
           <img src="img/logo.png" alt="logo">
@@ -85,25 +98,27 @@
       <section id="about-company" class="about-company">
         <div class="container-about-company">
           <div class="container-about-company-intro">
-            <p class="about-company-info">ООО «ЭЛКО» с 2000 года успешно работает на рынке строительных услуг в
+            <p class="about-company-info">ООО «ЭЛКО» с 2001 года успешно работает на рынке строительных услуг в
               г. Гродно и Гродненской области и оказывает широкий спектр услуг в сфере ремонта и строительства.</p>
-            <p class="about-company-info">Основной специализацией нашей компании является новое строительство,
+            <p class="about-company-info">Основной специализацией нашей компании является проектирование, новое строительство,
               реконструкция, модернизация и капитальный ремонт объектов строительства в качестве генерального
               подрядчика.</p>
             <p class="about-company-info">Строительная компания «ЭЛКО» располагает необходимой нормативно-технической
-              базой, сертификатами для производства строительных, отделочных и других работ.</p>
+              базой, сертификатами для производства строительных, отделочных и других работ, а также для проектирования.</p>
             <p class="about-company-info">Индивидуальный подход к каждому Заказчику – один из основных принципов нашей
               работы. Мы стремимся не только выполнить поставленную задачу в оговоренные сроки, для нас не менее важно
               поддерживать конструктивный диалог с Заказчиком на каждом этапе сотрудничества.</p>
 
+            <h2 class="areas-of-activity">Наши основные виды деятельности</h2>
           </div>
+
         </div>
       </section>
 
 
       <section class="type-of-services">
-        <div class="container-type-of-services">
 
+        <div class="container-type-of-services">
 
           <div class="info-type-of-services-top">
 
@@ -152,7 +167,6 @@
 
           </div>
 
-
           <a class="services-link" href="pages/services.html" target="_self">Весь список услуг</a>
         </div>
       </section>
@@ -182,82 +196,56 @@
         </div>
       </section>
 
-      <!--<section class="type-of-services">-->
-        <!--<div class="container-type-of-services">-->
-
-
-          <!--<div class="info-type-of-services-top">-->
-
-            <!--<div class="z">-->
-              <!--<img class="risunok" src="./img/3.jpg" alt="">-->
-              <!--<div class="nadpis">Проектирование систем</div>-->
-            <!--</div>-->
-
-            <!--<div class="z">-->
-              <!--<img class="risunok" src="./img/3.jpg" alt="">-->
-              <!--<div class="nadpis">Проектирование систем</div>-->
-            <!--</div>-->
-
-            <!--<div class="z">-->
-              <!--<img class="risunok" src="./img/3.jpg" alt="">-->
-              <!--<div class="nadpis">Проектирование систем</div>-->
-            <!--</div>-->
-          <!--</div>-->
-
-
-          <!--<div class="info-type-of-services-bottom">-->
-
-            <!--<div class="z">-->
-              <!--<img class="risunok" src="./img/3.jpg" alt="">-->
-              <!--<div class="nadpis">Проектирование систем</div>-->
-            <!--</div>-->
-
-            <!--<div class="z">-->
-              <!--<img class="risunok" src="./img/3.jpg" alt="">-->
-              <!--<div class="nadpis">Проектирование систем</div>-->
-            <!--</div>-->
-
-            <!--<div class="z">-->
-              <!--<img class="risunok" src="./img/3.jpg" alt="">-->
-              <!--<div class="nadpis">Проектирование систем</div>-->
-            <!--</div>-->
-
-          <!--</div>-->
-
-
-        <!--</div>-->
-      <!--</section>-->
-
-
-
-
-      <section class="partner-companies">
-        <div class="container-partner-companies"></div>
-      </section>
-
-      <section class="partners">
-        <!--<h2 class="main-page-partners-headline">Наши постоянные партнеры</h2>-->
-        <div class="container-partners">
-          <div class="container-partners-intro">
-
-            <img class="logo-partner" src="img/partners/tikkurila.png" alt="Tikkurila лакокрасочные материалы" width="150" height="150">
-
-
-            <img class="logo-partner" src="img/partners/alfalux.png" alt="Alfalux итальянская плитка" width="150" height="150">
-
-
-            <img class="logo-partner" src="img/partners/katepal.jpg" alt="Katepal кровельные материалы" width="150" height="150">
-
-
-            <img class="logo-partner" src="img/partners/caparol.jpg" alt="Сaparol лакокрасочные материалы" width="150" height="150">
-
-
-            <img class="logo-partner" src="img/partners/dulux.png" alt="Dulux лакокрасочные материалы" width="150" height="150">
-
+      <section class="carousel-certificates">
+        <div class="carousel">
+          <div class="autoplay">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
+            <img src="./img/certificate/SMK.jpg" alt="" width="150" height="250" onclick="OpenImage('./img/certificate/SMK.jpg')">
           </div>
+
+          <div id="wrapperImg" onclick="CloseImage()"></div>
         </div>
       </section>
 
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="./slick-master/slick/slick.min.js"></script>
+
+      <script type="text/javascript">
+        $('.autoplay').slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      </script>
+
+
+      <!--<section class="partners">-->
+        <!--&lt;!&ndash;<h2 class="main-page-partners-headline">Наши постоянные партнеры</h2>&ndash;&gt;-->
+        <!--<div class="container-partners">-->
+          <!--<div class="container-partners-intro">-->
+
+            <!--<img class="logo-partner" src="img/partners/tikkurila.png" alt="Tikkurila лакокрасочные материалы" width="150" height="150">-->
+
+
+            <!--<img class="logo-partner" src="img/partners/alfalux.png" alt="Alfalux итальянская плитка" width="150" height="150">-->
+
+
+            <!--<img class="logo-partner" src="img/partners/katepal.jpg" alt="Katepal кровельные материалы" width="150" height="150">-->
+
+
+            <!--<img class="logo-partner" src="img/partners/caparol.jpg" alt="Сaparol лакокрасочные материалы" width="150" height="150">-->
+
+          <!--</div>-->
+        <!--</div>-->
+      <!--</section>-->
 
       <section id="contacts" class="contacts">
         <div class="container-contacts">
@@ -305,6 +293,13 @@
       </div>
     </footer>
 
+
+
     <script src="./js/slider.js"></script>
+
+    <script src="./js/carousel.js"></script>
+
+    <script src="./js/menu.js"></script>
+
   </body>
 </html>

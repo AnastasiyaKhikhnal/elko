@@ -9,10 +9,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 1.75em;
+  padding-top: 4.75em;
   padding-bottom: 1em;
   width: 100%;
-
   background-color: #242582;
 }
 
@@ -21,11 +20,13 @@
   text-transform: uppercase;
   font-size: 3.44em;
   color: white;
+  font-family: "Jost-VariableFont_wght", sans-serif;
 }
 
 .activity {
-  font-size: 1.125em;
+  font-size: 1.5em;
   text-transform: uppercase;
+  text-align: center;
   color: white;
   letter-spacing: 0.15em;
 }

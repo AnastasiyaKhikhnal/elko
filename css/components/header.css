@@ -3,7 +3,11 @@
 .header {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  position: fixed;
+  top: 0; /* Панель навигации остается на вершине */
+  transition: top 0.2s;
+  z-index: 100;
+  width: 90%;
 }
 
 .header-top {

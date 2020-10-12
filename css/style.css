@@ -1,9 +1,15 @@
 @import "fonts.css";
 
+* {box-sizing:border-box;
+  font-family: "Ruda-Medium", Arial, sans-serif;
+}
+
 body {
   margin: 0 auto;
   width: 90%;
-  font-family: "Open Sans", Arial, sans-serif;
+  /*font-family: "Open Sans", Arial, sans-serif;*/
+
+
 }
 
 /*-------------------------------------section slider--------------------------------------------*/
@@ -42,11 +48,7 @@ body {
   justify-content: center;
   margin-top: 5em;
   margin-bottom: 5em;
-
-
-  padding-bottom: 3.125em;
-
-
+  padding-bottom: 1.125em;
   width: 66%;
 }
 
@@ -58,6 +60,12 @@ body {
   font-style: italic;
   line-height: 1.6em;
   text-indent: 5%;
+}
+
+.areas-of-activity {
+  padding: 3em 0 0;
+  color: #2f455d;
+  text-align: center;
 }
 
 
@@ -114,6 +122,7 @@ body {
 }
 
 .description {
+  padding: 1.8em;
   height: 8em;
   width: 100%;
   background: #242582;
@@ -186,10 +195,47 @@ body {
 
 /*----------------------------------section partner-companies------------------------------*/
 
-.container-partner-companies {
+.carousel-certificates {
+  /*width: 100%;*/
+  /*height: 500px;*/
+  /*background: #f2f2f2;*/
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 500px;
-  background: #f2f2f2;
+  padding: 100px;
+  background-image: url(../img/backgrounds/60238.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.autoplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 70%;
+}
+
+
+#wrapperImg {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bigImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
 }
 
 
@@ -222,7 +268,7 @@ body {
 
 /*--------------------------------section contacts--------------------------------------*/
 .contacts {
-  background-color: #2F2FA2;
+  background-color: #242582;
 }
 
 .container-contacts {
@@ -248,7 +294,7 @@ body {
 }
 
 .contacts-address__main-headline {
-  color: #bbbbb3;
+  color: white;
 }
 
 .contacts-address__info {
